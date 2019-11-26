@@ -1,0 +1,46 @@
+#main-menu {
+  background: url('./../../../assets/images/opaque-dark-bg.png');
+  /* border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff; */
+  display: block;
+  position: fixed;
+  right: 0%;
+  /* padding-right: 4rem; */
+  z-index: 3;
+  top: 0;
+  /* -webkit-transform: skewX(-54deg);
+  -moz-transform: skewX(-54deg);
+  -ms-transform: skewX(-54deg);
+  -o-transform: skewX(-54deg);
+  transform: skewX(-54deg); */
+
+}
+
+#main-menu a {
+  color: #fff;
+  margin: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* float: left; */
+  padding: 0;
+  display: block;
+  text-align: center;
+  /* -webkit-transform: skewX(54deg);
+  -moz-transform: skewX(54deg);
+  -ms-transform: skewX(54deg);
+  -o-transform: skewX(54deg);
+  transform: skewX(54deg); */
+
+}
+
+#main-menu a img.logo {
+  height: 1.95rem;
+  margin-top: -0.25rem;
+  padding-left: 2.2rem;
+}
+
+#main-menu a img.a4-logo-nav {
+  height: 1rem;
+}

@@ -1,0 +1,101 @@
+#features-menu-wrapper {
+  position: absolute;
+  left: 3%;
+  width: 100%;
+  z-index: 1;
+}
+
+#features-menu {
+  float: left;
+  background: #000;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#features-menu li {
+  float: left;
+  list-style-type: none;
+  padding: .33rem 1rem;
+  text-align: center;
+  width: calc(100% / 4);
+}
+
+#features-menu li:hover {
+  cursor: pointer;
+}
+
+#component-wrapper {
+  clear: both;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+#component-wrapper ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  max-height: 57vh;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+#component-wrapper ul:first-child {
+  display: flex;
+  width: 75%;
+  direction: rtl;
+}
+
+#component-wrapper ul:last-child {
+  display: none;
+}
+
+#component-wrapper ul li {
+  list-style-type: none;
+  margin: 0.5rem 1rem;
+  direction: ltr;
+}
+
+#component-wrapper ul li:hover {
+  cursor: pointer;
+}
+
+#component-wrapper ul li div h6 {
+  font-size: 0.75rem;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+#component-wrapper ul li div p {
+  font-size: 0.75rem;
+  user-select: none;
+}
+
+@media screen and (max-width: 1225px) {
+  #component-wrapper ul {
+    max-height: 55vh;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #component-wrapper ul:first-child {
+    height: 50vh;
+    overflow-y: scroll;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #features-menu-wrapper {
+    left: 0%;
+    width: 92%;
+    padding: 0 0.5rem;
+  }
+
+  #component-wrapper ul li div img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}

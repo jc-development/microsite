@@ -1,0 +1,99 @@
+#all-new {
+  /* width: 100%;
+  height: 100vh;
+  position: relative;
+  clear: both; */
+}
+
+#a4-content {
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  font-size: 2rem;
+  width: 33%;
+  z-index: 1;
+  font-weight: 700;
+  text-shadow: 0 0 1rem #000;
+  color: #fff;
+}
+
+#hunter-img {
+  background: url('../images/a4-hunter.jpg');
+  background-size: cover;
+  background-position: left top;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+#a4-content h2 {
+  font-size: 1.75rem;
+}
+#a4-content p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+}
+
+#a4-content h4 {
+  font-size: 1rem;
+}
+
+#avail-colors-wrapper {
+  /* float: left; */
+}
+
+#a4-content ul {
+  list-style-type: none;
+  /* float: left; */
+  padding-top: 0.3rem;
+  margin: 0;
+}
+
+#a4-content ul li {
+  float: left;
+  margin: 0.33rem;
+}
+
+#a4-content ul li h6 {
+  padding-bottom: 0.3rem;
+  margin: 0;
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 1300px) {
+  #a4-content {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #a4-logo-cad-model {
+    width: auto;
+  }
+  #a4-content {
+    width: auto;
+    padding: 1rem;
+    position: static;
+    color: #000;
+    text-shadow: none;
+  }
+
+  #a4-content ul {
+    width: 100%;
+    padding: 0;
+  }
+  #avail-colors-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  #a4-content ul li {
+    float: none;
+    display: inline-block;
+  }
+
+  #all-new {
+    height: auto;
+  }
+}
